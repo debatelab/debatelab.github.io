@@ -12,9 +12,9 @@ In our paper "Critical Thinking for Language Models" (paper, [repo](https://gith
 
 In a nutshell:
 
-1. **Artificial Argument Corpus**: We automatically create lots of synthetic argumentative texts by filling out basic 1st-order-logic argument schemes.
-2. **Training**: We fine-tune GPT-2 on different subsets of our artificial argument corpus.
-3. **Testing** We assess the ability of the trained models to correctly complete conclusions of arguments.
+1. **Artificial Argument Corpus**. We automatically create lots of synthetic argumentative texts by filling out basic 1st-order-logic argument schemes.
+2. **Training**. We fine-tune GPT-2 on different subsets of our artificial argument corpus.
+3. **Testing**. We assess the ability of the trained models to correctly complete conclusions of arguments.
 
 All in all, we obtain promising results: Training on few basic argument schemes boosts reasoning skill of neural language models. Moreover, the models successfully generalize from a narrow training base to different more complex patterns.
 
