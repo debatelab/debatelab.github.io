@@ -16,7 +16,7 @@ In a nutshell:
 2. **Training**. We fine-tune GPT-2 on different subsets of our artificial argument corpus.
 3. **Testing**. We assess the ability of the trained models to correctly complete conclusions of arguments.
 
-All in all, we obtain promising results: Training on few basic argument schemes boosts reasoning skill of neural language models. Moreover, the models successfully generalize from a narrow training base to different more complex patterns.
+All in all, we obtain promising results: Training on few basic argument schemes boosts reasoning skill of neural language models. Moreover, the models successfully generalize from a narrow training base to different, and more complex patterns.
 
 Our  findings  suggest that there might exist a representative sample of paradigmatic instances of good reasoning that  will  suffice  to  acquire  general reasoning skills and that might form the core of a critical  thinking  curriculum  for language models
 
@@ -32,7 +32,7 @@ The following examples are drawn from the artifical argument corpus:
 * Consumer research aims at understanding whether users of some products also tend to consume other ones, or not. The following argument seeks to clarify some such relations: First premise: Every regular consumer of Bentley Organic soap is an owner of a Bee & Flower soap. Second premise: Not being a rare consumer of Redken shampoo is sufficient for not being an owner of a Bee & Flower soap. So, necessarily, being a regular consumer of Bentley Organic soap is sufficient for being a [_rare consumer of Redken shampoo._]
 * Some football fans admire various clubs, others love only a single team. But who is a fan of whom precisely? The following argument pertains to this question: To begin with, every friend of Manchester United FC is a backer of Atalanta BC or a friend of Tottenham Hotspur. Moreover, being a friend of Manchester United FC is sufficient for not being a friend of Tottenham Hotspur. We may conclude that every friend of Manchester United FC is a [_backer of Atalanta BC._]
 
-The **conclusion completion task** consist in predicting the final part of the argument in square brackets.
+The **conclusion completion task** consist in predicting the final part of the argument [_in square brackets_].
 
 
 ## Illustrated Generated Conclusions
