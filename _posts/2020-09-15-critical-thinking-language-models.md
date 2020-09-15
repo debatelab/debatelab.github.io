@@ -4,12 +4,11 @@ title: "Can Neural Language Models (Learn to) Argue?"
 author: "Gregor Betz"
 categories: journal
 tags: [language modeling,AI,argument schemes]
-image: cutting.jpg
 ---
 
 Neural language models such as [GPT-2](https://openai.com/blog/gpt-2-1-5b-release/) and [GPT-3](https://arxiv.org/abs/2005.14165) display a breathtaking skill in generating sensible texts, and achieve state of the art results in a variety of natural language processing (NLP) tasks. But can these systems reason? Or, more precisely, can the successfully engage in the linguistic practice of giving and taking reasons?
 
-In our paper "Critical Thinking for Language Models" (paper | [repo](https://github.com/debatelab/aacorpus)) we address this question by training and testing GPT-2 on a corpus of simple deductive arguments.
+In our paper "Critical Thinking for Language Models" (paper, [repo](https://github.com/debatelab/aacorpus)) we address this question by training and testing GPT-2 on a corpus of simple deductive arguments.
 
 In a nutshell:
 
