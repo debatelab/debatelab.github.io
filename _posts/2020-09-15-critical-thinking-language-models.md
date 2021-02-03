@@ -16,7 +16,7 @@ In a nutshell:
 2. **Training**. We fine-tune GPT-2 on different subsets of our artificial argument corpus.
 3. **Testing**. We assess the ability of the trained models to correctly complete conclusions of arguments.
 
-![Pipeline for generating argumentative texts]({{ site.baseurl }}/assets/img/arg_schemes.png)
+![Pipeline for generating argumentative texts]({{ site.baseurl }}/assets/img/pipeline.png)
 
 ![Syllogistic argument schemes]({{ site.baseurl }}/assets/img/arg_schemes.png)
 
