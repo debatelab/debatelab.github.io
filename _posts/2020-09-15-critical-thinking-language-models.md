@@ -17,8 +17,13 @@ In a nutshell:
 3. **Testing**. We assess the ability of the trained models to correctly complete conclusions of arguments.
 
 ![Pipeline for generating argumentative texts]({{ site.baseurl }}/assets/img/pipeline.png)
+*Figure 1*
+{: style="text-align: center"}
+
 
 ![Syllogistic argument schemes]({{ site.baseurl }}/assets/img/arg_schemes.png)
+*Figure 2*
+{: style="text-align: center"}
 
 All in all, we obtain promising results: Training on few basic argument schemes boosts reasoning skill of neural language models. Moreover, the models successfully generalize from a narrow training base to different, and more complex patterns.
 
