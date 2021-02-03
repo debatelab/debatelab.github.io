@@ -16,9 +16,9 @@ In a nutshell:
 2. **Training**. We fine-tune GPT-2 on different subsets of our artificial argument corpus.
 3. **Testing**. We assess the ability of the trained models to correctly complete conclusions of arguments.
 
-![Pipeline for generating argumentative texts](img/arg_schemes.png "Figure 1: Pipeline for generating argumentative texts")
+![Pipeline for generating argumentative texts](arg_schemes.png)
 
-![Syllogistic argument schemes](img/arg_schemes.png "Figure 2: Syllogistic Argument Schemes")
+![Syllogistic argument schemes](arg_schemes.png)
 
 All in all, we obtain promising results: Training on few basic argument schemes boosts reasoning skill of neural language models. Moreover, the models successfully generalize from a narrow training base to different, and more complex patterns.
 
