@@ -12,9 +12,13 @@ In our paper "Critical Thinking for Language Models" ([paper](https://arxiv.org/
 
 In a nutshell:
 
-1. **Artificial Argument Corpus**. We automatically create lots of synthetic argumentative texts by filling out basic 1st-order-logic argument schemes.
+1. **Artificial Argument Corpus**. We automatically create lots of synthetic argumentative texts (Figure 1) by filling out basic 1st-order-logic argument schemes (Figure 2).
 2. **Training**. We fine-tune GPT-2 on different subsets of our artificial argument corpus.
 3. **Testing**. We assess the ability of the trained models to correctly complete conclusions of arguments.
+
+![Pipeline for generating argumentative texts](img/arg_schemes.png "Figure 1: Pipeline for generating argumentative texts")
+
+![Syllogistic argument schemes](img/arg_schemes.png "Figure 2: Syllogistic Argument Schemes")
 
 All in all, we obtain promising results: Training on few basic argument schemes boosts reasoning skill of neural language models. Moreover, the models successfully generalize from a narrow training base to different, and more complex patterns.
 
@@ -24,7 +28,7 @@ The examples below illustrate our artificial argument corpus and the ability of 
 
 ## Illustrated Artificial Argument Corpus and Conclusion Completion Task
 
-The following examples are drawn from the artifical argument corpus: 
+The following examples are drawn from the artificial argument corpus: 
 
 * Here comes a perfectly valid argument: Every close friend of Genevie is either a cousin of Sheri or a stepsister of Lynn, or both. Every cousin of Sheri is a granddaughter of Judy. Everyone who is a stepsister of Lynn is a granddaughter of Judy, too. Hence, being a granddaughter of Judy is necessary for being a [_close friend of Genevie._]
 * Is Titanium oxide an ingredient of my washing power? Which chemicals does my perfume contain? It is really difficult to keep track of all chemicals one is regularly exposed to. The following argument seeks to clarify some such relations: First, every ingredient of Eyeshadow Trio is an ingredient of Denimist or an ingredient of Loose Eye Shadow. Second, being an ingredient of Denimist is sufficient for being an ingredient of Mint Julip. Third, being an ingredient of Mint Julip is necessary for being an ingredient of Loose Eye Shadow. Therefore, everything that is an ingredient of Eyeshadow Trio is an [_ingredient of Mint Julip, too._]
@@ -56,5 +60,5 @@ GPT-2 large, trained  | GPT-2 large, base     | GPT-2 small, trained
 ... is not a philosopher. Therefore, no philosopher is a philosopher. We may conclude that no philosopher is a philosopher. It follows t...|... is divine."    You should be pretty clear about this, right? For anyone who has to write words on a piece of paper or some other level...|... is never mortal. And Plato was not mortal. And all philosophy was mortal. For so were the gods. And the gods were mortal. And Plato ...
 ... is not a philosopher. All this proves that no philosopher is a philosopher. All this means that no philosopher is a philosopher. For...|... is immortal.      To everyone    The cross of Christ.    See Christ, the victorious one.    Philosophers are powerless against the will of Ch...|..., in His wisdom, _we must be _a_ philosopher._ It is true that Hermes cannot solve the difficult problem of being a philosopher, for ...
 
-
+**[This post has been updated 03/02/2021]**
 
