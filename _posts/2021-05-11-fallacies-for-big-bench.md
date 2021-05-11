@@ -6,7 +6,7 @@ categories: journal
 tags: [language modeling,AI,fallacies]
 ---
 
-We have contributed the task [Formal Fallacies and Syllogisms](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/formal_fallacies_syllogisms_negation/) to the [BIG-bench 🪑](https://github.com/google/BIG-bench) project, a collaborative benchmark intended to probe large language models, and extrapolate their future capabilities  
+We have contributed the task [Formal Fallacies and Syllogisms](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/formal_fallacies_syllogisms_negation/) to the [BIG-bench 🪑](https://github.com/google/BIG-bench) project, a collaborative benchmark intended to probe large language models, and to extrapolate their future capabilities  
 
 The following spotlight presentation at the [Workshop on Enormous Language Models](https://welmworkshop.github.io/) explains our tasks motivation and design:
 
