@@ -11,6 +11,6 @@ We have contributed the task [Formal Fallacies and Syllogisms](https://github.co
 The following spotlight presentation at the [Workshop on Enormous Language Models](https://welmworkshop.github.io/) explains our tasks motivation and design:
 
 <video muted autoplay controls>
-    <source src="{{ site.baseur }}//assets/video/BetzEtAl_FallaciesSyllogisms.mp4" type="video/mp4">
+    <source src="{{ site.baseur }}/assets/video/BetzEtAl_FallaciesSyllogisms.mp4" type="video/mp4">
 </video>
 
