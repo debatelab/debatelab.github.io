@@ -6,7 +6,7 @@ categories: journal
 tags: [language modeling,AI,opinion dynamics]
 ---
 
-In our recent [paper](https://arxiv.org/abs/2104.06737), we develop a *natural-language* agent-based model of argumentation (ABMA). Its artificial deliberative agents (ADAs) are constructed with the help of so-called neural language models recently developed in AI and computational linguistics (and which we've explored [here]({{ site.baseurl }}/journal/thinking-aloud.html) and [here]({{ site.baseurl }}/journal/critical-thinking-language-models.html)). ADAs are equipped with a minimalist belief system and may generate and submit novel contributions to a conversation. 
+[📝 [Paper](https://www.jasss.org/25/1/2.html)] In our recent paper, we develop a *natural-language* agent-based model of argumentation (ABMA). Its artificial deliberative agents (ADAs) are constructed with the help of so-called neural language models recently developed in AI and computational linguistics (and which we've explored [here]({{ site.baseurl }}/journal/thinking-aloud.html) and [here]({{ site.baseurl }}/journal/critical-thinking-language-models.html)). ADAs are equipped with a minimalist belief system and may generate and submit novel contributions to a conversation. 
 
 ![Sketch of artificial deliberating agents (ADAs)]({{ site.baseurl }}/assets/img/ADA_illustrated2.png)
 
@@ -18,3 +18,5 @@ You can explore the simulation runs with our [streamlit app](https://share.strea
 
 
 ![Streamlit App to Explore ADA Simulations]({{ site.baseurl }}/assets/img/screenshot_ada-inspect.png)
+
+The paper has been published with [JASSS](https://www.jasss.org/), the preprint is still available [here](https://arxiv.org/abs/2104.06737).
