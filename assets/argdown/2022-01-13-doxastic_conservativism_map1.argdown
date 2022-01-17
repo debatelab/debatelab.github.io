@@ -1,0 +1,65 @@
+===
+color:
+    colorScheme: colorbrewer-set2
+dot:
+    graphVizSettings:
+            rankdir: TD
+            concentrate: true
+            ranksep: 0.5
+            nodesep: 0.2
+    group:
+        charactersInLine: 1000
+    argument:
+        minWidth: 0
+        title:
+            charactersInLine: 10
+        text:
+            charactersInLine: 10
+    statement:
+        minWidth: 0
+        title:
+            charactersInLine: 10
+        text:
+            charactersInLine: 10
+===
+
+# Hypotheses
+
+[H1] 
+
+[H2] 
+
+
+
+# Evidence
+
+[E1] #e
+
+[E2] #e
+
+
+# Arguments {isGroup: false}
+
+
+<Arg 1> #a
+
+(1) [H1]
+(2) [A1] #b
+----
+(3) [E1]
+
+
+<Arg 2> #a
+
+(1) [H1]
+(2) [A1] #b
+----
+(3) not E2
+    >< [E2]
+
+<Arg 3> #a
+
+(1) [H2]
+(2) [A2] #b
+----
+(3) [E2]
