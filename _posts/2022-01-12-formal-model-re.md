@@ -7,6 +7,8 @@ tags: [argumentation, reflective equilibrium]
 ---
 
 [📝 [Paper](https://doi.org/10.3998/ergo.1152)] 
+[💻 [Code](https://github.com/debatelab/remoma)]
+
 
 In "Making Reflective Equilibrium Precise: A Formal Model," co-authored with Claus Beisbart and Georg Brun, we present a formal, computational model of reflective equilibrium (RE). The basic thrust is to *explicate* the method of RE as a process of step-wise "belief" revision that modifies -- alternately -- an agent's current commitments and her provisional theory. Such step-wise processes seek to equilibrate the conflicting desiderata of faithfulness, account and systematicity.
 
