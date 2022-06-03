@@ -20,5 +20,7 @@ Our main findings are:
 
 As a follow-up to this study, we're thinking about how a neural language model might acquire (be taught) the general competence to effectively and sensibly elaborate on a given problem.
 
-**Post Scriptum 09/05/2022:** Google has recently published results for its latest Large Language Model called *PaLM* -- a language model more than two orders of mangintude larger than the GPT-2 model we've been using in our Thinking Aloud study. It's fascinating to see that PaLM exhibits clearly and precisly the skill we've been testing for: PaLM has a few-shot ability to generate sensible "chains of thought" in response to problems, and can use these auto-generated texts for improving the accuracy of its answers [(Wei et. al 2022)](https://arxiv.org/abs/2201.11903).  
+**Post Scriptum 09/05/2022:** Google has recently published results for its latest Large Language Model called *PaLM* -- a language model more than two orders of mangintude larger than the GPT-2 model we've been using in our Thinking Aloud study (175B > 1.5B parameters). It's fascinating to see that PaLM exhibits clearly and precisly the skill we've been testing for: PaLM has a few-shot ability to generate sensible "chains of thought" in response to problems, and can use these auto-generated texts for improving the accuracy of its answers [(Wei et al. 2022)](https://arxiv.org/abs/2201.11903).  
 
+**Post Post Scriptum 03/06/2022:** While Wei et al. (2022) prove, as mentioned above, the capability of `LLM`s' few-shot ability of effective problem elaboration, Kojima et al. ([2022](
+https://doi.org/10.48550/arXiv.2205.11916)) demonstrate that chain of thought (CoT) prompting is also effective in a zero-shot setting (with a 175B parameter model). :-)
