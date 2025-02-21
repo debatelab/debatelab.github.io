@@ -6,7 +6,7 @@ categories: journal
 tags: [language modeling, AI, epistemology, argumentation, argdown]
 ---
 
-<img src="https://cdn-uploads.huggingface.co/production/uploads/63c9266d86529da2095635cb/UfCEQtE_RXZrYiWVhpicm.png" width="80%">
+<img src="https://cdn-uploads.huggingface.co/production/uploads/63c9266d86529da2095635cb/UfCEQtE_RXZrYiWVhpicm.png" width="100%">
 
 This post is tracking the Argunauts project. We're currently trying to teach LLMs logical argument analysis and argument mapping with [Argdown](https://argdown.org), and are sharing progress and lessons learned in a series of articles.
 
