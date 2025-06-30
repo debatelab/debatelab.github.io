@@ -12,4 +12,4 @@ I had the pleasure to join Stefan Scherer, Michael Schefczyk and Kevin Schumache
 
 This is just to share my slides (German):
 
-🖥️ ![Beyond Chatting]({{ site.baseurl }}/assets/slides/slides_beyond_chatting_2025.html)
+[🖥️ [Beyond Chatting]({{ site.baseurl }}/assets/slides/slides_beyond_chatting_2025.html)]
