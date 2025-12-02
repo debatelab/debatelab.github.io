@@ -14,4 +14,5 @@ This post is tracking the Argunauts project. We're currently trying to teach LLM
 2️⃣ [Argunauts Training Phase I: Continual Pretraining on Synthetic Data](https://huggingface.co/blog/ggbetz/argunauts-phase-1) 📘  
 3️⃣ [Argunauts Training Phase II: Selfplay Finetuning Line-By-Line](https://huggingface.co/blog/ggbetz/argunauts-phase-2) 📘  
 4️⃣ [Argunauts Training Phase III: RLVF with Hindsight Instruction Relabeling, Self-Correction and Dynamic Curriculum](https://huggingface.co/blog/ggbetz/argunauts-phase-3) 📘  
+5️⃣ [Argunauts Update: Learning Formal Argument Analysis with RLVF and HIRPO](https://huggingface.co/blog/ggbetz/argunauts-update-202512) 📘  
 
